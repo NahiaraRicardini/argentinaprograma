@@ -3,4 +3,4 @@ let num2 = 17;
 let num3 =6
 let multiplicacion= num1 * num2 * num3;
 console.log(multiplicacion);
-/**pregunta b 204 */
+/**pregunta b: 204 */
