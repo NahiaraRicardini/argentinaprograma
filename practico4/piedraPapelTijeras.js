@@ -5,7 +5,7 @@ return opciones [seleccion]}
 
 function obtenerJugadaUsuario(){
     const readlineSync = require('readline-sync');
-    const jugadaUsuario = readlineSync.question('Ingrese su elección: ');
+    const jugadaUsuario = readlineSync.question('Ingrese su eleccion: ');
     let opciones = ["piedra", "papel", "tijeras"]
   return opciones [(jugadaUsuario.toLowerCase())-1]}
 
@@ -32,3 +32,4 @@ let resultado = determinarGanador (jugadaComputadora,jugadaUsuario)
 console.log ("La computadora eligió: " + jugadaComputadora)
 console.log ("El usuario eligió: " + jugadaUsuario)
 console.log ("El resultado fue: " + resultado)
+
