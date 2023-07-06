@@ -17,9 +17,9 @@ function determinarGanador(jugadaComputadora, jugadaUsuario){
 if (jugadaComputadora === jugadaUsuario) {
     return "empate";
 } else if(
-    (jugadaUsuario === "piedra" && jugadaComputadora === "tijeras") || 
-    (jugadaUsuario === "tijeras" && jugadaComputadora === "papel") ||
-    (jugadaUsuario === "papel" && jugadaComputadora === "piedra")
+    (jugadaUsuario=== "piedra" && jugadaComputadora=== "tijeras") || 
+    (jugadaUsuario=== "tijeras" && jugadaComputadora=== "papel") ||
+    (jugadaUsuario=== "papel" && jugadaComputadora=== "piedra")
 ){
     return "Gana el usuario";
 } else {
@@ -32,4 +32,3 @@ let resultado = determinarGanador (jugadaComputadora,jugadaUsuario)
 console.log ("La computadora eligió: " + jugadaComputadora)
 console.log ("El usuario eligió: " + jugadaUsuario)
 console.log ("El resultado fue: " + resultado)
-
