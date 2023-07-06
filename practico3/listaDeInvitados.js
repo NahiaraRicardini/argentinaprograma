@@ -3,7 +3,6 @@ let admitidos = []
 let invitados = ["Maria","Juan", "Andres", "Lionel", "Leandro","Emilia","Jose" ,"Sofia" ]
 console.log ("La lista de invitados es: " + invitados)
 
-
 for (let i=0; i<invitados.length; i++){
  let nombre = invitados [i]
   if(nombre === "Jose" || nombre === "Sofia"){

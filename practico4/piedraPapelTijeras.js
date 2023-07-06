@@ -17,9 +17,9 @@ function determinarGanador(jugadaComputadora, jugadaUsuario){
 if (jugadaComputadora === jugadaUsuario) {
     return "empate";
 } else if(
-    (jugadaUsuario=== "piedra" && jugadaComputadora=== "tijera") || 
-    (jugadaUsuario=== "tijera" && jugadaComputadora=== "papel") ||
-    (jugadaUsuario=== "papel" && jugadaComputadora=== "piedra")
+    (jugadaUsuario === "piedra" && jugadaComputadora === "tijeras") || 
+    (jugadaUsuario === "tijeras" && jugadaComputadora === "papel") ||
+    (jugadaUsuario === "papel" && jugadaComputadora === "piedra")
 ){
     return "Gana el usuario";
 } else {
